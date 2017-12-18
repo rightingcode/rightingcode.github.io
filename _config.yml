@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+# this goes inside _config.yml. Change as required
+navigation:
+        - text: Home
+          url: /index.html
+        - text: People
+          url: /people.html
+
+toolname: RightingCode

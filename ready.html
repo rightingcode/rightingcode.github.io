@@ -1,0 +1,102 @@
+---
+title: 'RightingCode.org'
+layout: default
+---
+
+<div class='row'>
+	<div class = 'page-header' style="col-lg-12">
+  	<h4>Readiness Assessment</h4>
+  </div>
+  <div class='col-md-12'>
+	  <p>
+In this class, you will use a variety of tools implemented in different programming languages to generate useful facts about a program’s behavior and analyze them.  You will learn about the tools and their theoretical underpinnings in this class, however it is assumed that you are already familiar with basic concepts in computer science and mathematics, as well as the use of various tools/command in a UNIX-like environment.  
+
+This assessment is designed to help you determine specific skills and concepts you should learn or refamiliarize yourself with prior to starting this course.  You do not need to master each and every one of these skills - but you should have command of the majority of them.  While it will be possible to pick up some of these skills along the way, it will prove difficult to cover them all (especially true in shortened summer semesters).
+
+The instructors and teaching assistants have only a limited capability to assist students with learning these tasks, and they will not be explicitly covered in video lessons.
+	 
+	  </p>
+	</div>
+
+   <div class='col-md-12'>
+     <h5>Navigating a UNIX-like Environment</h5>
+	  <p>
+All assignments in this class assume a UNIX-like environment. You
+     should be comfortable browsing folders and executing basic
+     commands from a UNIX command prompt.
+     </p>
+     <p>
+<dfn>Sample task:</dfn>
+Using just a command prompt in a UNIX-like environment (such as Linux or macOS), create a new folder, create a text file inside that folder, and change the file permissions to allow execution of that file (such as would be needed if the file contained a shell script). Finally, create a ZIP archive of your folder and extract it to a different location to verify that it was correctly created.	 
+	  </p>
+	</div>
+
+   <div class='col-md-12'>
+     <h5>Writing Shell Scripts</h5>
+	  <p>
+For some assignments, you’ll need to write a shell script that can execute a command. You may use any common UNIX shell scripting language such as bash, csh, or even python. 
+     </p>
+     <p>
+<dfn>Sample task:</dfn>
+
+Write a script that can be executed with the command <code>./myscript.sh input.txt output.txt</code> that takes an input text file and produces a version of the file that is sorted using the UNIX <code>sort</code> program. Your program should produce an <code>output.txt</code> that contains just Error if the input causes sort to crash.
+	  </p>
+	</div>
+	
+
+   <div class='col-md-12'>
+     <h5>Evaluating Data Structures</h5>
+	  <p>
+You will be performing analysis on common data structures such as trees, heaps, queues, and stacks. You should be able to write code in Java and C++ that can use common data structures.
+     </p>
+     <p>
+<dfn>Sample task:</dfn>
+
+Using a high level language such as Java or C++, write a class that builds a balanced binary tree out of an unsorted array of integer values. Then write a search function to determine if a specific value exists in the tree. Your search function should use an algorithm such as a BFS (Breadth First Search) or DFS (Depth First Search) on the tree values and return false if the desired value does not exist in the tree.
+
+Sample input array of values: [26, 28, 76, 32, 4, 87, 42, 9, 12]
+	  </p>
+	</div>
+
+	
+   <div class='col-md-12'>
+     <h5>Debugging High Level Code</h5>
+	  <p>
+Some tools we explore in this class automatically generate test cases that will find bugs in a provided application. You should be able to use a compile error or stack trace to figure out why a source file doesn’t compile. Additionally, you should be able to find and fix issues such as null pointer exceptions or invalid cast errors in a code file. As many applications we will be analyzing are relatively simple, we recommend having a high level of comfort debugging simple issues without the help of an IDE.     </p>
+     <p>
+<dfn>Sample task:</dfn>
+
+Run the following Java program. Make sure that all code in the main method executes to produce correct results.
+	  </p>
+
+{% highlight java %}
+    {% include test.java %}
+{% endhighlight %}
+
+   </div>
+
+
+   <div class='col-md-12'>
+     <h5>Using Man Pages and Modifying Commands</h5>
+	  <p>
+Many software analysis tools require more knowledge of the tool than will be provided in assignment instructions to effectively use the tool. You should be comfortable reading the documentation that is provided with tools and utilities. In particular, one great resource available for many tools are man pages. Most UNIX tools provide a man page that gives basic usage instructions and how to modify the command to accomplish different tasks.
+     </p>
+     <p>
+<dfn>Sample task:</dfn>
+
+Use the <code>uniq</code> UNIX tool to take the following text (copy it into a text file) and remove duplicate lines.
+
+{% highlight text %}
+    {% include duplines.txt %}
+{% endhighlight %}
+	  </p>
+     <p> Modify your command to do the following things:
+     <li>Prefix each line by the number of occurrences of that line in the file</li>
+     <li>Skip comparing the first three characters on the line</li>
+     <li>Ignore the case of the characters in the comparison</li>
+     Hint: use the <code>man</code> command to figure out the capabilities of <code>uniq</code>.
+     </p>
+   </div>
+
+	
+</div>

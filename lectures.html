@@ -1,0 +1,42 @@
+---
+title: 'RightingCode.org'
+layout: default
+---
+
+<div class='row'>
+	<div class = 'page-header' style="col-lg-12">
+  	<h4>Lessons</h4>
+  </div>
+	<div class='col-md-12'>
+	  <p>
+	  The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
+	  </p>
+	  <table border="1">
+	    <tr>
+    <td rowspan=2 align=middle><b>&nbsp;#&nbsp;</b></td>
+    <td rowspan=2 align=middle><b>Topic</b></td>
+    <td colspan=2 align=middle><b>Videos</b></td>
+    <td colspan=2 align=middle><b>Slides</b></td>
+</tr>
+<tr>
+    <td align=middle>URL</td>
+    <td align=middle>Size (mm:ss)</td>
+    <td align=middle>PDF</td>
+    <td align=middle>PPTX</td>
+  </tr>
+  {% for lecture in site.data.lectures %}
+  <tr>
+   <td>L{{lecture.id}}</td>
+   <td>{{lecture.title}}</td>
+   <td>[<a href="{{ lecture.video }}">video</a>]</td>
+   <td>{{lecture.length}}</td> 
+   <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pdf">PDF</a>]</td>
+   <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pptx">PPTX</a>]</td>
+ </tr>
+ {% endfor %}
+ </tr>
+</table>
+
+
+	</div>
+</div>

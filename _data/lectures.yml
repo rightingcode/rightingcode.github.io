@@ -1,0 +1,61 @@
+# id
+# title
+# video
+# length
+# pdf
+# pptx
+
+- id: "1"
+  title: "Introduction to Software Analysis"
+  video: "https://www.youtube.com/watch?v=H7eYLDNcucI"
+  length: "19:36"
+
+- id: "2"
+  title: "Introduction to Software Testing"
+  video: "https://www.youtube.com/watch?v=RU-LVra69ng"
+  length: "33:17"
+
+- id: "3"
+  title: "Random Testing"
+  video: "https://www.youtube.com/watch?v=Uo0GpFWWaz8"
+  length: "35:28"
+
+- id: "4"
+  title: "Automated Test Generation"
+  video: "https://www.youtube.com/watch?v=vefaUOUC1Ec"
+  length: "45:52"
+
+- id: "5"
+  title: "Dataflow Analysis"
+  video: "https://www.youtube.com/watch?v=OROXJ9-wUQE"
+  length: "40:00"
+
+- id: "6"
+  title: "Pointer Analysis"
+  video: "https://www.youtube.com/watch?v=AjwUyo8UazM"
+  length: "50:09"
+
+- id: "7"
+  title: "Constraint-Based Analysis"
+  video: "https://www.youtube.com/watch?v=HRO3RkOHe_4"
+  length: "40:53"
+
+- id: "8"
+  title: "Type Systems"
+  video: "https://www.youtube.com/watch?v=dGbRLowf6ys"
+  length: "59:37"
+
+- id: "9"
+  title: "Statistical Debugging"
+  video: "https://www.youtube.com/watch?v=SoYe9Juy7_s"
+  length: "51:45"
+
+- id: "10"
+  title: "Delta Debugging"
+  video: "https://www.youtube.com/watch?v=SEdUppkCmtM"
+  length: "35:51"
+
+- id: "11"
+  title: "Dynamic Symbolic Execution"
+  video: "https://www.youtube.com/watch?v=QrtGOrSrVPQ"
+  length: "46:47"

@@ -4,39 +4,98 @@ layout: default
 ---
 
 <div class='row'>
-	<div class = 'page-header' style="col-lg-12">
-  	<h4>Lessons</h4>
+  <div class = 'page-header' style="col-lg-12">
+    <h4>Lessons</h4>
   </div>
-	<div class='col-md-12'>
-	  <p>
-	  The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
-	  </p>
-	  <table border="1">
-	    <tr>
-    <td rowspan=2 align=middle><b>&nbsp;#&nbsp;</b></td>
-    <td rowspan=2 align=middle><b>Topic</b></td>
-    <td colspan=2 align=middle><b>Videos</b></td>
-    <td colspan=2 align=middle><b>Slides</b></td>
-</tr>
-<tr>
-    <td align=middle>URL</td>
-    <td align=middle>Size (mm:ss)</td>
-    <td align=middle>PDF</td>
-    <td align=middle>PPTX</td>
-  </tr>
-  {% for lecture in site.data.lectures %}
-  <tr>
-   <td>L{{lecture.id}}</td>
-   <td>{{lecture.title}}</td>
-   <td>[<a href="{{ lecture.video }}">video</a>]</td>
-   <td>{{lecture.length}}</td> 
-   <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pdf">PDF</a>]</td>
-   <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pptx">PPTX</a>]</td>
- </tr>
- {% endfor %}
- </tr>
-</table>
-
-
-	</div>
+  <div class='col-md-12'>
+    <p>
+    The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
+    </p>
+    <table border="1">
+      <tr>
+        <td rowspan=2 align=middle><b>&nbsp;#&nbsp;</b></td>
+        <td rowspan=2 align=middle><b>Topic</b></td>
+        <td colspan=2 align=middle><b>Videos</b></td>
+        <td colspan=2 align=middle><b>Slides</b></td>
+      </tr>
+      <tr>
+        <td align=middle>URL</td>
+        <td align=middle>Size (mm:ss)</td>
+        <td align=middle>PDF</td>
+        <td align=middle>PPTX</td>
+      </tr>
+      {% for lecture in site.data.lectures %}
+      <tr>
+        <td>L{{lecture.id}}</td>
+        <td>{{lecture.title}}</td>
+        <td>[<a href="{{ lecture.video }}">video</a>]</td>
+        <td>{{lecture.length}}</td> 
+        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pdf">PDF</a>]</td>
+        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pptx">PPTX</a>]</td>
+      </tr>
+      {% endfor %}
+      </tr>
+    </table>
+  </div>
+</div>
+<div class='row'>
+  <div class = 'page-header' style="col-lg-12">
+    <h4>Resources</h4>
+  </div>
+  <h5>L1</h5>
+  <ul>
+    <li><a href="http://www.around.com/ariane.html">A bug and a crash</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Undecidable_problem">Undecidability</a></li>
+  </ul>
+  <h5>L3</h5>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Infinite_monkey_theorem">Infinite monkey theorem</a></li>
+    <li><a href="http://pages.cs.wisc.edu/~bart/fuzz/fuzz.html">Fuzzing study</a></li>
+    <li><a href="ftp://ftp.cs.wisc.edu/par-distr-sys/technical_papers/fuzz.pdf">Fuzzing study</a></li>
+    <li><a href="ftp://ftp.cs.wisc.edu/paradyn/technical_papers/fuzz-revisited.pdf">Fuzzing study</a></li>
+    <li><a href="http://pages.cs.wisc.edu/~bart/fuzz/fuzz.html">Fuzzing study</a></li>
+    <li><a href="http://developer.android.com/tools/help/monkey.html ">The monkey tool</a></li>
+    <li><a href="http://research.microsoQ.com/enLus/projects/cuzz/">Cuzz</a></li>
+    <li><a href="http://research.microsoQ.com/pubs/118655/asplos277-pct.pdf">Cuzz</a></li>
+  </ul>
+  <h5>L4</h5>
+  <ul>
+    <li><a href="http://mir.cs.illinois.edu/marinov/publica.ons/BoyapatiETAL02Korat.pdf">Korat</a></li>
+    <li><a href="http://research.microsoft.com/pubs/76578/randoop-tr.pdf">Randoop</a></li>
+  </ul>
+  <h5>L5</h5>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Backus–Naur_form">Backus normal form</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Set-builder_notation">Set-builder notation</a></li>
+  </ul>
+  <h5>L7</h5>
+  <ul>
+    <li><a href="http://www.utdallas.edu/~gupta/courses/acl/papers/datalog-paper.pdf">Datalog</a></li>
+    <li><a href="http://webdam.inria.fr/Alice/">Datalog</a></li>
+    <li><a href="https://suif.stanford.edu/papers/pldi04.pdf">Cloning-based context-sensitivity</a></li>
+    <li><a href="https://research.cs.wisc.edu/wpis/papers/popl95.pdf">Summary-based inter-procedural analysis</a></li>
+  </ul>
+  <h5>L8</h5>
+  <ul>
+    <li><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4602670&tag=1">Using static analysis to find bugs</a></li>
+    <li><a href="https://dl.acm.org/citation.cfm?id=1646374">A few billion lines of code later: using static analysis to find bugs in the real world</a></li>
+    <li><a href="http://www.cc.gatech.edu/~naik/courses/cs6340/papers/cardelli-types.pdf">Type systems</a></li>
+    <li><a href="https://www.cis.upenn.edu/~bcpierce/tapl">Types and Programming Languages</a></li>
+    <li><a href="https://www.cis.upenn.edu/~bcpierce/attapl">Advanced Topics in Types and Programming Languages</a></li>
+  </ul>
+  <h5>L9</h5>
+  <ul>
+    <li><a href="http://research.cs.wisc.edu/cbi/">The Cooperative Bug Isolation Project</a></li>
+  </ul>
+  <h5>L10</h5>
+  <ul>
+    <li><a href="https://www.st.cs.uni-saarland.de/publications/files/zeller-tse-2002.pdf">Simplifying and Isolating Failure-Inducing Input</a></li>
+    <li><a href="https://www.st.cs.uni-saarland.de/publications/files/zeller-esec-1999.pdf">Yesterday, my program worked. Today, it does not. Why?</a></li>
+  </ul>
+  <h5>L11</h5>
+  <ul>
+    <li><a href="http://mir.cs.illinois.edu/marinov/publications/SenETAL05CUTE.pdf">CUTE: A Concolic Unit Testing Engine for C</a></li>
+    <li><a href="http://research.microsoft.com/en-us/um/people/pg/public_psfiles/ndss2008.pdf">SAGE</a></li>
+    <li><a href="http://research.microsoft.com/en-us/um/people/pg/public_psfiles/talk-spin2009.pdf">SAGE</a></li>
+  </ul>
 </div>

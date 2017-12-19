@@ -4,34 +4,60 @@ layout: default
 ---
 
 <div class='row'>
-	<div class = 'page-header' style="col-lg-12">
-  	<h4>Labs</h4>
+  <div class = 'page-header' style="col-lg-12">
+    <h4>Labs</h4>
   </div>
-	<div class='col-md-12'>
-	  <p>
-There are 8 assignments to complement the lectures and impart hands-on experience.
-Each assignment is of one of the following two kinds:
-<ul>
-<li>Using a software analysis tool based on a technique covered in lectures, reporting your findings, and
-answering conceptual questions.</li>
-<li>Implementing a software analysis algorithm in a high-level programming language (usually Java).</li>
-</ul>
-A VM image compatible with both Virtualbox and VMWare is provided for relevant
-assignments. (It should also work with other virtualization software but only
-these two are officially supported.)
-	  </p>
-<table border="1">
-<tr>
-    <td align=middle><b>&nbsp;#&nbsp;</b></td>
-    <td align=middle><b>Title</b></td>
-    <td align=middle><b>Document</b></td>
-</tr>
-{% for assignment in site.data.assignments %}
-<tr>
-  <td>A{{assignment.id}}&nbsp</td><td>&nbsp{{assignment.title}}</td><td>[<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">PDF</a>]</td>
-</tr>
-{% endfor %}
-</table>
+  <div class='col-md-12'>
+    <p>
+    There are 8 assignments to complement the lectures and impart hands-on experience.
+    Each assignment is of one of the following two kinds:
+    <ul>
+      <li>Using a software analysis tool based on a technique covered in lectures, reporting your findings, and
+        answering conceptual questions.</li>
+      <li>Implementing a software analysis algorithm in a high-level programming language (usually Java).</li>
+    </ul>
+    A VM image compatible with both Virtualbox and VMWare is provided for relevant
+    assignments. (It should also work with other virtualization software but only
+    these two are officially supported.)
+    </p>
+    <table border="1">
+      <tr>
+        <td align=middle><b>&nbsp;#&nbsp;</b></td>
+        <td align=middle><b>Title</b></td>
+        <td align=middle><b>Document</b></td>
+      </tr>
+      {% for assignment in site.data.assignments %}
+      <tr>
+        <td>A{{assignment.id}}&nbsp</td><td>&nbsp{{assignment.title}}</td><td>[<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">PDF</a>]</td>
+      </tr>
+      {% endfor %}
+    </table>
 
-	</div>
+  </div>
+</div>
+<div class='row'>
+  <div class = 'page-header' style="col-lg-12">
+    <h4>Resources</h4>
+  </div>
+  <h5>A2</h5>
+  <ul>
+    <li><a href="http://developer.android.com/tools/help/monkey.html ">The Monkey Tool</a></li>
+  </ul>
+  <h5>A3</h5>
+  <ul>
+    <li><a href="http://mir.cs.illinois.edu/marinov/publica.ons/BoyapatiETAL02Korat.pdf">Korat</a></li>
+  </ul>
+  <h5>A4</h5>
+  <ul>
+    <li><a href="http://research.microsoft.com/pubs/76578/randoop-tr.pdf">Randoop</a></li>
+  </ul>
+  <h5>A6</h5>
+  <ul>
+    <li><a href="http://www.utdallas.edu/~gupta/courses/acl/papers/datalog-paper.pdf">Datalog</a></li>
+    <li><a href="http://webdam.inria.fr/Alice/">Datalog</a></li>
+  </ul>
+  <h5>A7</h5>
+  <ul>
+    <li><a href="http://research.cs.wisc.edu/cbi/">The Cooperative Bug Isolation Project</a></li>
+  </ul>
 </div>

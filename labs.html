@@ -5,12 +5,33 @@ layout: default
 
 <div class='row'>
 	<div class = 'page-header' style="col-lg-12">
-  	<h4>Instructor</h4>
+  	<h4>Labs</h4>
   </div>
 	<div class='col-md-12'>
-    <ul>
-      <li>
-				<a href="http://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>
-      </li>
+	  <p>
+There are 8 assignments to complement the lectures and impart hands-on experience.
+Each assignment is of one of the following two kinds:
+<ul>
+<li>Using a software analysis tool based on a technique covered in lectures, reporting your findings, and
+answering conceptual questions.</li>
+<li>Implementing a software analysis algorithm in a high-level programming language (usually Java).</li>
+</ul>
+A VM image compatible with both Virtualbox and VMWare is provided for relevant
+assignments. (It should also work with other virtualization software but only
+these two are officially supported.)
+	  </p>
+<table border="1">
+<tr>
+    <td align=middle><b>&nbsp;#&nbsp;</b></td>
+    <td align=middle><b>Title</b></td>
+    <td align=middle><b>Document</b></td>
+</tr>
+{% for assignment in site.data.assignments %}
+<tr>
+  <td>A{{assignment.id}}&nbsp</td><td>&nbsp{{assignment.title}}</td><td>[<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">PDF</a>]</td>
+</tr>
+{% endfor %}
+</table>
+
 	</div>
 </div>

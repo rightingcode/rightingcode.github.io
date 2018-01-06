@@ -4,10 +4,12 @@ navigation:
           url: /index.html
         - text: People
           url: /people.html
-        - text: Readiness Assessment
+        - text: Prereqs
           url: /ready.html
         - text: Lectures
           url: /lectures.html
         - text: Labs
           url: /labs.html
+        - text: Resources
+          url: /resources.html
 toolname: RightingCode

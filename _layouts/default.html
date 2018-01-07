@@ -35,6 +35,17 @@ ript>
 		</div>
 		<div class="navbar-collapse navbar-inverse-collapse collapse" aria-expanded="false" id="nav-top">
 			<ul class="nav navbar-nav">
+				{% for link in site.home %}
+				{% assign current = nil %}
+				{% if page.url == link.url%}
+				{% assign current = 'active' %}
+				{% endif %}
+				<li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+				<a href="{{site.baseurl}}{{ link.url }}">{{ link.text }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
 				{% for link in site.navigation %}
 				{% assign current = nil %}
 				{% if page.url == link.url%}

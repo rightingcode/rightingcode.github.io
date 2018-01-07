@@ -1,7 +1,8 @@
 # this goes inside _config.yml. Change as required
-navigation:
+home:
         - text: RightingCode.org
           url: /index.html
+navigation:
         - text: People
           url: /people.html
         - text: Prereqs

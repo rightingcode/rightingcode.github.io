@@ -11,4 +11,6 @@ navigation:
           url: /lessons.html
         - text: Labs
           url: /labs.html
+        - text: Calendar
+          url: /calendar.html
 toolname: RightingCode

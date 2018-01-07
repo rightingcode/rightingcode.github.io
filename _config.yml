@@ -10,6 +10,4 @@ navigation:
           url: /lessons.html
         - text: Labs
           url: /labs.html
-        - text: Resources
-          url: /resources.html
 toolname: RightingCode

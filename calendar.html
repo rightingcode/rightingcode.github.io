@@ -27,12 +27,12 @@ table, th, td {
         <td>{{week.id}}</td>
         <td><ul>
         {% for tasks in week.tasks %}
-        {{tasks.item}}
+            <li>{{tasks.item}}</li>
         {% endfor %}
         </ul></td>
         <td><ul>
         {% for deliverables in week.deliverables %}
-        {{deliverables.item}}
+            <li>{{deliverables.item}}</li>
         {% endfor %}
         </ul></td>
       </tr>

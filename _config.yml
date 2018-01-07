@@ -1,6 +1,6 @@
 # this goes inside _config.yml. Change as required
 navigation:
-        - text: Home
+        - text: RightingCode.org
           url: /index.html
         - text: People
           url: /people.html

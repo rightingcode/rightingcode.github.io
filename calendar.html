@@ -26,12 +26,12 @@ table, th, td {
       <tr>
         <td>{{week.id}}</td>
         <td><ul>
-        {% for tasks in site.data.calendar.week %}
+        {% for tasks in week.tasks %}
         {{tasks.item}}
         {% endfor %}
         </ul></td>
         <td><ul>
-        {% for deliverables in site.data.calendar.week %}
+        {% for deliverables in week.deliverables %}
         {{deliverables.item}}
         {% endfor %}
         </ul></td>

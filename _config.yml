@@ -6,8 +6,8 @@ navigation:
           url: /people.html
         - text: Prereqs
           url: /ready.html
-        - text: Lectures
-          url: /lectures.html
+        - text: Lessons
+          url: /lessons.html
         - text: Labs
           url: /labs.html
         - text: Resources

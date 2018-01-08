@@ -5,7 +5,8 @@
 - id: 1
   tasks:
   - item: "Review course syllabus"
-  - item: "Watch lessons 1 and 2 (Intro to Software Analysis and Intro to Software Testing)"
+  - item: "Watch lesson 1 (Intro to Software Analysis)"
+  - item: "Watch lesson 2 (Intro to Software Testing)"
   deliverables:
 - id: 2
   tasks:

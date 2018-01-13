@@ -1,0 +1,42 @@
+---
+title: 'RightingCode.org'
+layout: default
+---
+
+<style>
+table, th, td {
+    padding: 6px;
+}
+</style>
+
+<div class='row'>
+  <div class='col-md-12'>
+    <p>
+    This calendar is representative of a typical 16-week semester offering of this course. It is intended to be a general guide to the 
+    ordering and pacing of the course - there are no dates as those are specific to a particular offering. If you are a current student,
+    please refer to your course syllabus and course calendar for all important dates.
+    </p>
+    <table border="1">
+      <tr>
+        <td align=middle><b>Week</b></td>
+        <td align=middle><b>Tasks</b></td>
+        <td align=middle><b>Deliverables</b></td>
+      </tr>
+      {% for week in site.data.calendar %}
+      <tr>
+        <td>{{week.id}}</td>
+        <td><ul>
+        {% for tasks in week.tasks %}
+            <li>{{tasks.item}}</li>
+        {% endfor %}
+        </ul></td>
+        <td><ul>
+        {% for deliverables in week.deliverables %}
+            <li>{{deliverables.item}}</li>
+        {% endfor %}
+        </ul></td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

@@ -1,0 +1,97 @@
+#id
+#tasks
+#deliverables
+
+- id: 1
+  tasks:
+  - item: "Review course syllabus"
+  - item: "Watch lesson 1 (Intro to Software Analysis)"
+  - item: "Watch lesson 2 (Intro to Software Testing)"
+  deliverables:
+- id: 2
+  tasks:
+  - item: "Watch lesson 3 (Random Testing)"
+  - item: "Begin working on lab 1: BFF"
+  deliverables:
+- id: 3
+  tasks:
+  - item: "Complete lab 1: BFF"
+  deliverables:
+  - item: "Lab 1: BFF"
+- id: 4
+  tasks:
+  - item: "Watch lesson 4 (Automated Test Generation)"
+  - item: "Begin working on lab 2: Randoop "
+  deliverables:
+- id: 5
+  tasks:
+  - item: "Complete lab 2: Randoop"
+  deliverables:
+  - item: "Lab 2: Randoop"
+- id: 6
+  tasks:
+  - item: "Watch lesson 5 (Dataflow Analysis)"
+  - item: "Begin working on lab 3: Dataflow"
+  - item: "Begin studying for midterm exam"
+  deliverables:
+- id: 7
+  tasks:
+  - item: "Complete lab 3: Dataflow"
+  - item: "Watch lesson 6 (Pointer Analysis)"
+  - item: "Begin studying for midterm exam"
+  deliverables:
+  - item: "Lab 3: Dataflow"
+- id: 8
+  tasks:
+  - item: "Study for midterm exam"
+  - item: "Participate in midterm exam review session"
+  - item: "Complete midterm exam"
+  deliverables:
+  - item: "Midterm Exam"
+- id: 9
+  tasks:
+  - item: "Watch lesson 7 (Constraint Based Analysis)"
+  - item: "Begin working on lab 4: Datalog"
+  deliverables:
+- id: 10
+  tasks:
+  - item: "Watch lesson 8 (Type Systems)"
+  - item: "Complete lab 4: Datalog"
+  deliverables:
+  - item: "Lab 4: Datalog"
+- id: 11
+  tasks:
+  - item: "Watch lesson 9 (Statistical Debugging)"
+  - item: "Begin working on lab 5: CBI"
+  deliverables:
+- id: 12
+  tasks:
+  - item: "Watch lesson 10 (Delta Debugging)"
+  - item: "Complete lab 5: CBI"
+  - item: "Begin working on lab 6: Delta"
+  deliverables:
+  - item: "Lab 5: CBI"
+- id: 13
+  tasks:
+  - item: "Complete lab 6: Delta"
+  deliverables:
+  - item: "Lab 6: Delta"
+- id: 14
+  tasks:
+  - item: "Watch lesson 11 (Dynamic Symbolic Execution)"
+  - item: "Begin working on lab 7: KLEE"
+  - item: "Begin studying for final exam"
+  deliverables:
+- id: 15
+  tasks:
+  - item: "Complete lab 7: KLEE"
+  - item: "Continue studying for final exam"
+  deliverables:
+  - item: "Lab 7: KLEE"
+- id: 16
+  tasks:
+  - item: "Participate in final exam review session"
+  - item: "Continue studying for final exam"
+  - item: "Complete final exam"
+  deliverables:
+  - item: "Final Exam"

@@ -14,18 +14,19 @@ table, th, td {
     <p>
     The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
     </p>
+	<center>
     <table border="1">
       <tr>
-        <td rowspan=2 align=middle><b>&nbsp;#&nbsp;</b></td>
-        <td rowspan=2 align=middle><b>Topic</b></td>
-        <td colspan=2 align=middle><b>Videos</b></td>
-        <td colspan=2 align=middle><b>Slides</b></td>
+        <td bgcolor="#F5F5F5" rowspan=2 align=middle><b>&nbsp;#&nbsp;</b></td>
+        <td bgcolor="#F5F5F5" rowspan=2 align=middle><b>Topic</b></td>
+        <td bgcolor="#F5F5F5" colspan=2 align=middle><b>Videos</b></td>
+        <td bgcolor="#F5F5F5" colspan=2 align=middle><b>Slides</b></td>
       </tr>
       <tr>
-        <td align=middle>URL</td>
-        <td align=middle>Size (mm:ss)</td>
-        <td align=middle>PDF</td>
-        <td align=middle>PPTX</td>
+        <td bgcolor="#F5F5F5" align=middle>URL</td>
+        <td bgcolor="#F5F5F5" align=middle>Size (mm:ss)</td>
+        <td bgcolor="#F5F5F5" align=middle>PDF</td>
+        <td bgcolor="#F5F5F5" align=middle>PPTX</td>
       </tr>
       {% for lecture in site.data.lectures %}
       <tr>
@@ -39,13 +40,13 @@ table, th, td {
       {% endfor %}
       </tr>
     </table>
+	</center>
   </div>
 </div>
 
 <div class='row'>
-  <div class = 'page-header' style="col-lg-12">
-    <h4>Resources</h4>
-  </div>
+    <div class="col-md-12">
+	<div class = 'page-header' style="col-lg-12"><h4>Resources</h4></div>
   <h5>Introduction to Software Analysis</h5>
   <ul>
     <li><a href="http://www.around.com/ariane.html">A Bug and a Crash</a></li>
@@ -100,4 +101,5 @@ for C</a></li>
     <li><a href="https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf">SAGE (paper)</a></li>
     <li><a href="https://patricegodefroid.github.io/public_psfiles/talk-spin2009.pdf">SAGE (slides)</a></li>
   </ul>
+</div>
 </div>

@@ -3,12 +3,6 @@ title: 'RightingCode.org'
 layout: default
 ---
 
-<style>
-table, th, td {
-    padding: 6px;
-}
-</style>
-
 <div class='row'>
   <div class='col-md-12'>
     <p>
@@ -26,9 +20,9 @@ table, th, td {
     <center>
     <table border="1">
       <tr>
-        <td bgcolor="#F5F5F5" align=middle><b>&nbsp;#&nbsp;</b></td>
-        <td bgcolor="#F5F5F5" align=middle><b>Title</b></td>
-        <td bgcolor="#F5F5F5" align=middle><b>Document</b></td>
+        <th><b>&nbsp;#&nbsp;</b></th>
+        <th><b>Title</b></th>
+        <th><b>Document</b></th>
       </tr>
       {% for assignment in site.data.assignments %}
       <tr>

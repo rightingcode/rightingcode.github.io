@@ -3,12 +3,6 @@ title: 'RightingCode.org'
 layout: default
 ---
 
-<style>
-table, th, td {
-    padding: 6px;
-}
-</style>
-
 <div class='row'>
   <div class='col-md-12'>
     <p>
@@ -17,16 +11,16 @@ table, th, td {
 	<center>
     <table border="1">
       <tr>
-        <td bgcolor="#F5F5F5" rowspan=2 align=middle><b>&nbsp;#&nbsp;</b></td>
-        <td bgcolor="#F5F5F5" rowspan=2 align=middle><b>Topic</b></td>
-        <td bgcolor="#F5F5F5" colspan=2 align=middle><b>Videos</b></td>
-        <td bgcolor="#F5F5F5" colspan=2 align=middle><b>Slides</b></td>
+        <th rowspan=2><b>&nbsp;#&nbsp;</b></th>
+        <th rowspan=2><b>Topic</b></th>
+        <th colspan=2><b>Videos</b></th>
+        <th colspan=2><b>Slides</b></th>
       </tr>
       <tr>
-        <td bgcolor="#F5F5F5" align=middle>URL</td>
-        <td bgcolor="#F5F5F5" align=middle>Size (mm:ss)</td>
-        <td bgcolor="#F5F5F5" align=middle>PDF</td>
-        <td bgcolor="#F5F5F5" align=middle>PPTX</td>
+        <th>URL</th>
+        <th>Size (mm:ss)</th>
+        <th>PDF</th>
+        <th>PPTX</th>
       </tr>
       {% for lecture in site.data.lectures %}
       <tr>

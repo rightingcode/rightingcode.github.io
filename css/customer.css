@@ -36,3 +36,13 @@ body {
 #footer a {
   color: #676767;
 }
+
+table, th, td {
+    padding: 6px;
+}
+
+th {
+    background-color: #F5F5F5;
+    text-align: center;
+    font-weight: normal;
+}

@@ -6,6 +6,7 @@
 # title
 # link
 # talk 
+# slides
 # author 
 # year
 # description
@@ -60,43 +61,21 @@
 
 - lesson: "Lesson 2: Introduction to Software Testing"
   papers: 
-    - title: 
-      link: 
-      author: 
-      year: 
-      description: 
-
-    - title: 
-      link: 
-      author: 
-      year: 
-      description: 
+    - title: "Hints on Test Data Selection: Help for the Practicing Programmer"
+      link: https://www.computer.org/csdl/mags/co/1978/04/01646911.pdf
+      description: Original paper that introduced the idea of mutation testing.
 
   casual:
-    - title: 
-      link: 
-      author: 
-      year: 
-      description: 
+    - title: Pex and Moles
+      link: https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net/
+      description: Unit test generation tools in Visual Studio for .NET programs.
 
-    - title: 
-      link: 
-      author: 
-      year: 
-      description: 
+    - title: A Theory of Predicate-Complete Test Coverage and Generation
+      link: https://www.microsoft.com/en-us/research/publication/a-theory-of-predicate-complete-test-coverage-and-generation/
+      slides: https://www.cs.cmu.edu/~aldrich/courses/654-sp05/handouts/predicate-tests.pdf
+      description: Introduces a new code coverage metric based on predicates.
 
   tools:
-    - title: 
-      link: 
-      author: 
-      year: 
-      description: 
-
-    - title: 
-      link: 
-      author: 
-      year: 
-      description: 
 
 - lesson: "Lesson 3: Random Testing"
   papers: 
@@ -138,7 +117,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 4: Automated Test Generation"
   papers: 
     - title: 
       link: 
@@ -178,7 +157,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 5: Dataflow Analysis"
   papers: 
     - title: 
       link: 
@@ -218,7 +197,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 6: Pointer Analysis"
   papers: 
     - title: 
       link: 
@@ -258,7 +237,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 7: Constraint-Based Analysis"
   papers: 
     - title: 
       link: 
@@ -298,7 +277,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 8: Type Systems"
   papers: 
     - title: 
       link: 
@@ -338,7 +317,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 9: Statistical Debugging"
   papers: 
     - title: 
       link: 
@@ -378,7 +357,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 10: Delta Debugging"
   papers: 
     - title: 
       link: 
@@ -418,7 +397,7 @@
       year: 
       description:
 
-- lesson: "Lesson X: "
+- lesson: "Lesson 11: Dynamic Symbolic Execution"
   papers: 
     - title: 
       link: 
@@ -452,6 +431,72 @@
       year: 
       description:
 
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+- lesson: "Model Checking"
+  papers: 
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+  casual:
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+  tools:
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+- lesson: "Differential Testing"
+  papers: 
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+  casual:
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+  tools:
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+- lesson: "Abstract Implementation"
+  papers: 
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+  casual:
+    - title: 
+      link: 
+      author: 
+      year: 
+      description:
+
+  tools:
     - title: 
       link: 
       author: 

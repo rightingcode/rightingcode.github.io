@@ -1,0 +1,23 @@
+---
+title: 'Supplementary Reading'
+layout: default
+---
+
+<div class='row'>
+  <div class='col-md-12'>
+    <p>
+    The below material consists of technical as well as popular-press articles to supplements the <a href="lessons.html">lessons</a>.
+    </p>
+
+	<ul>
+      {% for lecture in site.data.lectures %}
+      <li>
+        <p><b>L{{lecture.id}}: {{lecture.title}}</b></p>
+			<iframe src="reading/{{lecture.id}}.html" width="100%"></iframe>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+

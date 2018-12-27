@@ -18,9 +18,9 @@ layout: default
             {% for item in lesson.papers %}
               <li>
                 <a href="{{item.link}}">{{item.title}}</a>
-                {% if item.talk != "" %} &#91;<a href="{{item.talk}}">talk</a>&#93;{% endif %}
-                {% if item.author != "" %} by {{item.author}}{% endif %}
-                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                {% if item.talk %} &#91;<a href="{{item.talk}}">talk</a>&#93;{% endif %}
+                {% if item.author %} by {{item.author}}{% endif %}
+                {% if item.year %}, {{item.year}}{% endif %}.<br />
                 <em>{{item.description}}</em>
               </li>
             {% endfor %}
@@ -30,9 +30,9 @@ layout: default
             {% for item in lesson.casual %}
               <li>
                 <a href="{{item.link}}">{{item.title}}</a>
-                {% if item.talk != "" %} &#91;<a href="{{item.talk}}">talk</a>&#93;{% endif %}
-                {% if item.author != "" %} by {{item.author}}{% endif %}
-                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                {% if item.talk %} &#91;<a href="{{item.talk}}">talk</a>&#93;{% endif %}
+                {% if item.author %} by {{item.author}}{% endif %}
+                {% if item.year %}, {{item.year}}{% endif %}.<br />
                 <em>{{item.description}}</em>
               </li>
             {% endfor %}
@@ -42,9 +42,9 @@ layout: default
             {% for item in lesson.tools %}
               <li>
                 <a href="{{item.link}}">{{item.title}}</a>
-                {% if item.talk != "" %} &#91;<a href="{{item.talk}}">talk</a>&#93;{% endif %}
-                {% if item.author != "" %} by {{item.author}}{% endif %}
-                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                {% if item.talk %} &#91;<a href="{{item.talk}}">talk</a>&#93;{% endif %}
+                {% if item.author %} by {{item.author}}{% endif %}
+                {% if item.year %}, {{item.year}}{% endif %}.<br />
                 <em>{{item.description}}</em>
               </li>
             {% endfor %}

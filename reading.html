@@ -13,9 +13,33 @@ layout: default
       {% for lesson in site.data.reading %}
         <li>
           <h5>{{lesson.lesson}}</h5>
-	        <h6>Part 1: Technical Papers</h6>
-            <ol>
-	          {% for item in lesson.papers %}
+          <h6>Part 1: Technical Papers</h6>
+          <ol>
+            {% for item in lesson.papers %}
+              <li>
+                <a href="{{item.link}}">{{item.title}}</a>
+                {% if item.talk != "" %} [<a href="{{item.talk}}">talk</a>]{% endif %}
+                {% if item.author != "" %} by {{item.author}}% endif %}
+                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                <em>{{item.description}}</em>
+              </li>
+            {% endfor %}
+          </ol>
+          <h6>Part 2: Casual Reading / Popular Press (Case Studies, Blog Posts, etc.)</h6>
+          <ol>
+            {% for item in lesson.casual %}
+              <li>
+                <a href="{{item.link}}">{{item.title}}</a>
+                {% if item.talk != "" %} [<a href="{{item.talk}}">talk</a>]{% endif %}
+                {% if item.author != "" %} by {{item.author}}% endif %}
+                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                <em>{{item.description}}</em>
+              </li>
+            {% endfor %}
+          </ol>
+          <h6>Part 3: Tools and Frameworks</h6>
+          <ol>
+            {% for item in lesson.tools %}
               <li>
                 <a href="{{item.link}}">{{item.title}}</a>
                 {% if item.talk != "" %} [<a href="{{item.talk}}">talk</a>]{% endif %}

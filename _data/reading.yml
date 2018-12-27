@@ -1,0 +1,459 @@
+# lesson
+# papers
+# casual
+# tools
+
+# title
+# link
+# talk
+# author
+# year
+# description
+
+- lesson: "Lesson 1: Introduction to Software Analysis"
+  papers: 
+      - title: What is soundness (in static analysis)?
+        link: http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/
+        author: Michael Hicks
+        description: Relates soundness/completeness in program analysis to precision/recall and discusses "soundiness".
+
+      - title: What is static program analysis?
+        link: http://matt.might.net/articles/intro-static-analysis/
+        talk: https://www.youtube.com/watch?v=POvX4hYIoxg
+        author: Matthew Might
+        description: xplains why program analysis is undecidable and develops a static analysis to play with in <a href="https://racket-lang.org/">Racket</a>.
+
+  casual:
+      - title: "From Start-ups to Scale-ups: Opportunities and Open Problems for Static and Dynamic Program Analysis"
+        link: https://research.fb.com/wp-content/uploads/2018/05/from-start-ups-to-scale-ups-opportunities-and-open-problems-for-static-and-dynamic-program-analysis.pdf
+        year: 2018
+        description: Describes experiences developing and deploying program analysis tools at Facebook.
+
+      - title: Lessons from Building Static Analysis Tools at Google
+        link: https://cacm.acm.org/magazines/2018/4/226371-lessons-from-building-static-analysis-tools-at-google/fulltext
+        year: 2018
+        description: Describes experiences developing and deploying program analysis tools at Google.
+
+      - title: "What Developers Want and Need from Program Analysis: An Empirical Study"
+        link: https://www.microsoft.com/en-us/research/uploads/prod/2016/07/What-Developers-Want-and-Need-from-Program-Analysis-An-Empirical-Study.pdf
+        year: 2016
+        description: One of the best empirical studies about program analysis.
+
+      - title: "A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs"
+        link: https://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext
+        year: 2010
+        description: Describes experiences applying a commercial static analysis tool by Coverity to large C/C++ programs.
+
+      - title: Righting Software
+        link: https://www.microsoft.com/en-us/research/publication/righting-software/
+        year: 2004
+        description: Describes two generations of static analysis tools developed by Microsoft Research.
+
+  tools:
+      - title: "The Worst Computer Bugs in History: The Ariane 5 Disaster"
+        link: https://blog.bugsnag.com/bug-day-ariane-5-disaster/
+        description: Describes famous software bugs including the Ariane Rocket Disaster from the lesson.
+
+      - title: The Coming Software Apocalypse 
+        link: https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
+        description: Overview of the state of software reliability problems and solutions to overcome them.
+
+lesson: "Lesson 2: Introduction to Software Testing"
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson 3: Random Testing"
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+lesson: "Lesson X: "
+  papers: 
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  casual:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+  tools:
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:
+
+      - title: 
+        link: 
+        author: 
+        year: 
+        description:

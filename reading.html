@@ -9,15 +9,48 @@ layout: default
     The below material consists of technical as well as popular-press articles to supplements the <a href="lessons.html">lessons</a>.
     </p>
 
-	<ul>
-      {% for lecture in site.data.lectures %}
-      <li>
-        <p><b>L{{lecture.id}}: {{lecture.title}}</b></p>
-			<iframe src="reading/{{lecture.id}}.html" width="100%"></iframe>
-      </li>
+    <ul>
+      {% for lesson in site.data.reading %}
+        <li>
+          <h5>{{lesson.lesson}}</h5>
+          <h6>Part 1: Technical Papers</h6>
+          <ol>
+            {% for item in lesson.papers %}
+              <li>
+                <a href="{{item.link}}">{{item.title}}</a>
+                {% if item.talk != "" %} [<a href="{{item.talk}}">talk</a>]{% endif %}
+                {% if item.author != "" %} by {{item.author}}% endif %}
+                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                <em>{{item.description}}</em>
+              </li>
+            {% endfor %}
+          </ol>
+          <h6>Part 2: Casual Reading / Popular Press (Case Studies, Blog Posts, etc.)</h6>
+          <ol>
+            {% for item in lesson.casual %}
+              <li>
+                <a href="{{item.link}}">{{item.title}}</a>
+                {% if item.talk != "" %} [<a href="{{item.talk}}">talk</a>]{% endif %}
+                {% if item.author != "" %} by {{item.author}}% endif %}
+                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                <em>{{item.description}}</em>
+              </li>
+            {% endfor %}
+          </ol>
+          <h6>Part 3: Tools and Frameworks</h6>
+          <ol>
+            {% for item in lesson.tools %}
+              <li>
+                <a href="{{item.link}}">{{item.title}}</a>
+                {% if item.talk != "" %} [<a href="{{item.talk}}">talk</a>]{% endif %}
+                {% if item.author != "" %} by {{item.author}}% endif %}
+                {% if item.year != "" %}, {{item.year}}{% endif %}.<br />
+                <em>{{item.description}}</em>
+              </li>
+            {% endfor %}
+          </ol>
+        </li>
       {% endfor %}
     </ul>
   </div>
 </div>
-
-

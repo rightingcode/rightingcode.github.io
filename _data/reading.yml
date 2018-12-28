@@ -103,7 +103,7 @@
     - title: Webpage describing fuzz testing case studies (1988-2008)
       link: http://pages.cs.wisc.edu/~bart/fuzz/fuzz.html
       author: Bart Miller of Univ. of Wisconsin
-      description: &#91;<a href="ftp://ftp.cs.wisc.edu/par-distr-sys/technical_papers/fuzz.pdf">study 1</a>&#93;<a href="ftp://ftp.cs.wisc.edu/paradyn/technical_papers/fuzz-revisited.pdf">study 2</a>&#93;
+      description: "[<a href=\"ftp://ftp.cs.wisc.edu/par-distr-sys/technical_papers/fuzz.pdf\">study 1</a>][<a href=\"ftp://ftp.cs.wisc.edu/paradyn/technical_papers/fuzz-revisited.pdf\">study 2</a>]"
 
     - title: Blog post
       link: https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html

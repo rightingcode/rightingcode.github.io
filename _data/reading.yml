@@ -79,43 +79,51 @@
 
 - lesson: "Lesson 3: Random Testing"
   papers: 
-    - title: 
-      link: 
-      author: 
-      year: 
-      description:
+    - title: A Randomized Scheduler with Probabilistic Guarantees of Finding Bugs
+      link: https://dl.acm.org/citation.cfm?id=1736040
+      year: ASPLOS 2010
+      description: Describes fuzz testing in Microsoft's <a href="https://www.microsoft.com/en-us/research/project/cuzz-concurrency-fuzzing/">Cuzz</a> tool to find concurrency bugs.
 
-    - title: 
-      link: 
-      author: 
-      year: 
-      description:
+    - title: "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs"
+      link: https://dl.acm.org/citation.cfm?id=351266
+      year: ICFP 2000
+      description: Describes fuzz testing in the <a href="http://hackage.haskell.org/package/QuickCheck">QuickCheck</a> tool to test properties of Haskell programs.
+
+    - title: Evaluating Fuzz Testing
+      link: https://arxiv.org/abs/1808.09700
+      year: CCS 2018
+      description: Describes flaws in past evaluations of fuzz testing and gives guidelines going forward. <a href="http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/">Blog post summary</a>.
 
   casual:
-    - title: 
-      link: 
-      author: 
-      year: 
-      description:
+    - title: A Report on Random Testing
+      link: https://dl.acm.org/citation.cfm?id=802530
+      year: ICSE 1981
+      description: Original paper that introduced the idea of random testing.
 
-    - title: 
-      link: 
-      author: 
-      year: 
-      description:
+    - title: Webpage describing fuzz testing case studies (1988-2008)
+      link: http://pages.cs.wisc.edu/~bart/fuzz/fuzz.html
+      author: Bart Miller of Univ. of Wisconsin
+      description: [<a href="ftp://ftp.cs.wisc.edu/par-distr-sys/technical_papers/fuzz.pdf">study 1</a>][<a href="ftp://ftp.cs.wisc.edu/paradyn/technical_papers/fuzz-revisited.pdf">study 2</a>]
+
+    - title: Blog post
+      link: https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html
+      author: Google's <a href="https://googleprojectzero.blogspot.com/">Project Zero</a> team
+      description: Fuzz testing popular web browsers' DOM engines.
+
+    - title: Syzkaller
+      link: https://github.com/google/syzkaller
+      author: the OpenBSD team
+      talk: https://www.openbsd.org/papers/fuzz-slides.pdf
+      description: Talk describes the work of the OpenBSD team on using the <a href="https://github.com/google/syzkaller">syzkaller</a> fuzzer to fuzz their kernel.
 
   tools:
-    - title: 
-      link: 
-      author: 
-      year: 
-      description:
+    - title: Monkey for Android apps
+      link: http://developer.android.com/tools/help/monkey.html
+      description: Tool by Google
 
-    - title: 
+    - title: TODO: Many more (AFL, BFF, etc.)
       link: 
-      author: 
-      year: 
-      description:
+      description: 
 
 - lesson: "Lesson 4: Automated Test Generation"
   papers: 

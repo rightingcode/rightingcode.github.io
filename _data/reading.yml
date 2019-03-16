@@ -22,7 +22,7 @@
       link: http://matt.might.net/articles/intro-static-analysis/
       talk: https://www.youtube.com/watch?v=POvX4hYIoxg
       author: Matthew Might
-      description: xplains why program analysis is undecidable and develops a static analysis to play with in <a href="https://racket-lang.org/">Racket</a>.
+      description: Explains why program analysis is undecidable and develops a static analysis to play with in <a href="https://racket-lang.org/">Racket</a>.
 
   casual:
     - title: "From Start-ups to Scale-ups: Opportunities and Open Problems for Static and Dynamic Program Analysis"

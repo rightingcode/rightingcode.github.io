@@ -50,30 +50,14 @@ programming and basic logical reasoning.
 </a>
 <p>
 
+
 <p>
 We will teach how to build program reasoning tools via three hands-on exercises.
-Each exercise will target a different task in program reasoning that
-embodies a distinctive use-case:
-
-<ul>
-<li>
-<b>Task 1: Static Dataflow Analysis.</b> This task involves statically proving simple program
-properties that are commonly targeted by dataflow analysis and type inference.</li>
-<li>
-<b>Task 2: Dynamic Symbolic Execution.</b> This task involves systematically generating program
-inputs that lead to assertion violations.</li>
-<li>
-<b>Task 3: Assertion Verification.</b> This task involves statically proving assertions by generating
-and solving Constrained Horn Clauses (CHC), a fragment of First Order Logic increasingly used
-in verification, inference, and synthesis.</li>
-</ul>
-
-<p>
 The tutorial will be structured into two parts:
 
 <ol>
 <li>
-We will first introduce the prevalent systems which form the backbone of our applications. In
+We will first introduce the systems which form the backbone of our applications. In
 particular, we will cover:
 <ol>
 <li>LLVM, a compiler infrastructure primarily targeting the C family of languages. It is a
@@ -85,21 +69,18 @@ computational problems in programming languages and beyond. We will introduce th
 architecture of Z3, its capabilities, and its API. However, we will not delve into the
 internals of Z3.</li>
 </ol>
-<li>Hands-on exercises on building three applications. Each exercise will cover a distinctive
-use-case:
+<li>Hands-on exercises on building three applications. Each exercise will cover a distinctive use-case:
 <ol>
-<li>Static Dataflow Analysis: We will build a constraint-based static analyzer for C
-programs. This will serve as an exercise in writing constraints in Datalog, and solving
-them using the theory of fixed points in Z3. In doing so, we will become familiar with Z3’s
-API for C program constructs.</li>
-<li>Dynamic Symbolic Execution: We will implement a dynamic symbolic execution
-engine that generates inputs to efficiently explore program paths in order to find inputs
-that crash a C program. In this exercise, we will learn to implement an LLVM pass to
-encode C program path constraints symbolically.</li>
-<li>Assertion Verification: We will create an application similar to a small-scale version of
-SeaHorn, a program verifier that automatically checks safety properties of C programs.
-This will serve as an exercise in deriving Verification Conditions (VC) from the LLVM IR
-in the form of Constrained Horn Clauses (CHC) and checking their satisfiability using Z3.</li>
+<li>
+<b>Static Dataflow Analysis.</b> This task involves statically proving simple program
+properties that are commonly targeted by dataflow analysis and type inference.</li>
+<li>
+<b>Dynamic Symbolic Execution.</b> This task involves systematically generating program
+inputs that lead to assertion violations.</li>
+<li>
+<b>Assertion Verification.</b> This task involves statically proving assertions by generating
+and solving Constrained Horn Clauses (CHC), a fragment of First Order Logic increasingly used
+in verification, inference, and synthesis.</li>
 </ol>
 </li>
 </ol>

@@ -52,10 +52,11 @@ programming and basic logical reasoning.
 
 
 <p>
-We will teach how to build program reasoning tools via three hands-on exercises. The tutorial will be structured into two parts:
+We will teach how to build program reasoning tools via three hands-on exercises. The tutorial will be structured into two parts.
 
-<ol>
-<li>
+<h5>Part I: Introduction to LLVM and Z3.</h5> 
+
+<p>
 We will first introduce the systems which form the backbone of our applications. In
 particular, we will cover:
 <ol>
@@ -68,20 +69,24 @@ computational problems in programming languages and beyond. We will introduce th
 architecture of Z3, its capabilities, and its API. However, we will not delve into the
 internals of Z3.</li>
 </ol>
-<li>We will then conduct hands-on exercises on building three applications. Each exercise will cover 
+
+<h5>Part II: Building Three Applications.</h5>
+
+<p>
+We will then conduct hands-on exercises on building three applications. Each exercise will cover 
 a distinctive use-case: dataflow analysis, symbolic execution, and verification. We discuss each in turn.
 
-<h4>1. Static Dataflow Analysis</h4>
+<p>
+<b>1. Static Dataflow Analysis.</b>
+We will build a constraint-based static analyzer for C programs. This will serve as an exercise in writing constraints in Datalog, and solving them using the theory of fixed points in Z3. In doing so, we will become familiar with Z3’s API for C program constructs.
 
-<p>We will build a constraint-based static analyzer for C programs. This will serve as an exercise in writing constraints in Datalog, and solving them using the theory of fixed points in Z3. In doing so, we will become familiar with Z3’s API for C program constructs.</p>
+<p>
+<b>2. Dynamic Symbolic Execution.</b>
+We will implement a dynamic symbolic execution engine that generates inputs to efficiently explore program paths in order to find inputs that crash a C program. In this exercise, we will learn to implement an LLVM pass to encode C program path constraints symbolically.
 
-<h4>2. Dynamic Symbolic Execution</h4>
-
-<p>We will implement a dynamic symbolic execution engine that generates inputs to efficiently explore program paths in order to find inputs that crash a C program. In this exercise, we will learn to implement an LLVM pass to encode C program path constraints symbolically.</p>
-
-<h4>3. Assertion Verification </h4>
-
-<p>We will create an application similar to a small-scale version of SeaHorn, a program verifier that automatically checks safety properties of C programs. This will serve as an exercise in deriving Verification Conditions (VC) from the LLVM IR in the form of Constrained Horn Clauses (CHC) and checking their satisfiability using Z3.</p>
+<p>
+<b>3. Assertion Verification.</b>
+We will create an application similar to a small-scale version of SeaHorn, a program verifier that automatically checks safety properties of C programs. This will serve as an exercise in deriving Verification Conditions (VC) from the LLVM IR in the form of Constrained Horn Clauses (CHC) and checking their satisfiability using Z3.
 
 <p>
 <a name="about"/>

@@ -68,34 +68,8 @@ computational problems in programming languages and beyond. We will introduce th
 architecture of Z3, its capabilities, and its API. However, we will not delve into the
 internals of Z3.</li>
 </ol>
-<li>We will then conduct hands-on exercises on building three applications. Each exercise will cover a distinctive use-case:
-<ol>
-<li>
-<b>Static Dataflow Analysis.</b> This task involves statically proving simple program
-properties that are commonly targeted by dataflow analysis and type inference.</li>
-<li>
-<b>Dynamic Symbolic Execution.</b> This task involves systematically generating program
-inputs that lead to assertion violations.</li>
-<li>
-<b>Assertion Verification.</b> This task involves statically proving assertions by generating
-and solving Constrained Horn Clauses (CHC), a fragment of First Order Logic increasingly used
-in verification, inference, and synthesis.</li>
-</ol>
-</li>
-</ol>
-
-<p>
-<a name="exercises">
-<table border=0 cellpadding=4 width="100%">
-<tr><td width="100%" bgcolor="#ccccff">
-<font face="Cambria"><center><b>Tutorial Exercises</b></center></font>
-</td></tr>
-</table>
-</a>
-<p>
-
-<p>
-Each exercises of the tutorial will cover one avenue of program reasoning: static analysis, symbolic execution, and verification. We discuss each in turn.
+<li>We will then conduct hands-on exercises on building three applications. Each exercise will cover 
+a distinctive use-case: dataflow analysis, symbolic execution, and verification. We discuss each in turn.
 
 <h4>1. Static Dataflow Analysis</h4>
 
@@ -108,8 +82,6 @@ Each exercises of the tutorial will cover one avenue of program reasoning: stati
 <h4>3. Assertion Verification </h4>
 
 <p>We will create an application similar to a small-scale version of SeaHorn, a program verifier that automatically checks safety properties of C programs. This will serve as an exercise in deriving Verification Conditions (VC) from the LLVM IR in the form of Constrained Horn Clauses (CHC) and checking their satisfiability using Z3.</p>
-
-
 
 <p>
 <a name="about"/>

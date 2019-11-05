@@ -52,8 +52,7 @@ programming and basic logical reasoning.
 
 
 <p>
-We will teach how to build program reasoning tools via three hands-on exercises.
-The tutorial will be structured into two parts:
+We will teach how to build program reasoning tools via three hands-on exercises. The tutorial will be structured into two parts:
 
 <ol>
 <li>
@@ -86,6 +85,33 @@ in verification, inference, and synthesis.</li>
 </ol>
 
 <p>
+<a name="exercises">
+<table border=0 cellpadding=4 width="100%">
+<tr><td width="100%" bgcolor="#ccccff">
+<font face="Cambria"><center><b>Tutorial Exercises</b></center></font>
+</td></tr>
+</table>
+</a>
+<p>
+
+<p>
+Each exercises of the tutorial will cover one avenue of program reasoning: static analysis, symbolic execution, and verification. We discuss each in turn.
+
+<h4>1. Static Dataflow Analysis</h4>
+
+<p>We will build a constraint-based static analyzer for C programs. This will serve as an exercise in writing constraints in Datalog, and solving them using the theory of fixed points in Z3. In doing so, we will become familiar with Z3’s API for C program constructs.</p>
+
+<h4>2. Dynamic Symbolic Execution</h4>
+
+<p>We will implement a dynamic symbolic execution engine that generates inputs to efficiently explore program paths in order to find inputs that crash a C program. In this exercise, we will learn to implement an LLVM pass to encode C program path constraints symbolically.</p>
+
+<h4>3. Assertion Verification </h4>
+
+<p>We will create an application similar to a small-scale version of SeaHorn, a program verifier that automatically checks safety properties of C programs. This will serve as an exercise in deriving Verification Conditions (VC) from the LLVM IR in the form of Constrained Horn Clauses (CHC) and checking their satisfiability using Z3.</p>
+
+
+
+<p>
 <a name="about"/>
 <table border=0 cellpadding=4 width="100%">
 <tr><td width="100%" bgcolor="#ccccff">
@@ -96,7 +122,52 @@ in verification, inference, and synthesis.</li>
 <p>
 
 <p>
-Bios and references
+<h4>About the Presenters</h4>
+
+  <p><a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a> is a professor of computer science at the University of Pennsylvania. His research interests span the areas of program analysis, constraint solving, and machine learning for programming. He holds a Ph.D. in Computer Science from Stanford University. Earlier, he was a researcher at Intel Labs and a professor in the College of Computing at Georgia Tech.</p>
+
+  <p><a href="https://www.seas.upenn.edu/~edinella/">Elizabeth Dinella</a> is a 2nd year PhD student at the University of Pennsylvania advised by Professor Mayur Naik. She received her B.S. in computer science from Rensselaer Polytechnic Institute in 2018. Her research interests lie in the fields of software engineering and programming languages. In particular, she is excited about applying machine learning techniques to solve traditional program analysis problems.</p>
+
+  <p><a href="https://www.seas.upenn.edu/~pardisp/">Pardis Pashakhanloo</a> is a 3rd year PhD student at the University of Pennsylvania co-advised by Professor Mayur Naik and Professor Boon Thau Loo. She received her B.Sc. in Software Engineering from Sharif University of Technology in 2017. At the intersection of program analysis, machine learning, and software security, Pardis seeks to develop methodologies and frameworks to eliminate security vulnerabilities by reducing system-wide complexity.</p>
+
+  <p><a href="https://anthonycanino1.github.io">Anthony Canino</a> is a Postdoctoral Researcher at the University of Pennsylvania working with Professor Mayur Naik. His current work focuses on debloating large software systems for increased performance and security. He previously focused on on using programming languages to help programmers build energy efficient software. Moving forward, he aims to strengthen the support that programming languages and models can provide in performance-critical systems, e.g., unmanned aerial vehicles and mobile devices.</p> 
+
+<h4>Resources</h4>
+
+<ul>
+  <li><a href="https://llvm.org/docs/LangRef.html">LLVM Language Reference</a></li>
+  <li><a href="https://github.com/Z3Prover/z3">Z3 Theorem Prover</a></li>
+</ul>
+
+<h4>References</h4>
+
+The below references describe tools, systems, and frameworks that we use in or have influenced our tutorial.
+
+<table cellpadding="5">
+  
+<a name="cgo04"/>
+<tr><td>[CGO '04]</td><td>Chris Lattner and Vikram Adve.
+<b><a href="https://llvm.org/pubs/2003-09-30-LifelongOptimizationTR.pdf">LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation</a></b>.</td>
+</tr> 
+  
+<a name="osdi08"/>
+<tr><td>[OSDI '08]</td><td>Cristian Cadar, Daniel Dunbar, and Dawson Engler.
+<b><a href="http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf">KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs</a></b>.</td>
+</tr>
+
+
+<a name="tacas08"/>
+<tr><td width="110">[TACAS '08]</td><td>Leonardo de Moura and Nikolaj Bjørner
+<b><a href="https://link.springer.com/content/pdf/10.1007%2F978-3-540-78800-3_24.pdf">Z3: An Efficient SMT Solver</a></b>.</td>
+</tr>
+
+<a name="tacas08"/>
+<tr><td>[CAV '15]</td><td>Arie Gurfinkel, Temesghen Kahsai, Anvesh Komuravelli, and Jorge A. Navas.
+<b><a href="https://jorgenavas.github.io/papers/seahorn-cav15.pdf">The SeaHorn Verification Framework</a></b>.</td>
+</tr>
+
+
+</table>
 
 </div>
 </div>

@@ -12,6 +12,7 @@ layout: default
 
 <center>[ <a href="#intro"><b>Introduction</b></a>
   | <a href="#tutorial"><b>Structure of Tutorial</b></a>
+  | <a href="#started"><b>Getting Started</b></a>
   | <a href="#about"><b>Learn More</b></a> ]</center>
 
 <p>
@@ -92,13 +93,46 @@ We will create an application similar to a small-scale version of SeaHorn, a pro
 <a name="about"/>
 <table border=0 cellpadding=4 width="100%">
 <tr><td width="100%" bgcolor="#ccccff">
-<font face="Cambria"><center><b>Learn More</b></center></font>
+<font face="Cambria"><center><b>Getting Started</b></center></font>
 </td></tr>
 </table>
 </a>
 <p>
 
 <p>
+
+We provide a docker image for the tutorial that contains skeleton code for each of the three hands-on exercises. We provide a <a href=https://docs.google.com/document/d/1eljJKiIjI0n8MMmOQ76qBMBSOHakFMc4kF16iiAjBec/edit>step-by-step guide</a> that details setting up and running the tutorial docker which is <a href="https://hub.docker.com/repository/docker/petablox/popl2020-tutorial">hosted on dockerhub</a>. Please see the guide for full details, but the following is a quick-start guide should get one up and running:
+
+<p>
+To download the docker image:
+<p>
+<code>
+docker pull petablox/popl2020-tutorial
+</code>
+
+<p>
+To start a docker container:
+<p>
+<code>
+docker run -it --name popl2020 petablox/popl2020-tutorial
+</code>
+
+<p>
+Solutions to each of the exercises will be uploaded and distributed during the tutorial.
+<p>
+
+
+
+<p>
+<a name="about"/>
+<table border=0 cellpadding=4 width="100%">
+<tr><td width="100%" bgcolor="#ccccff">
+<font face="Cambria"><center><b>Learn More</b></center></font>
+</td></tr>
+</table>
+</a>
+<p>
+
 <h4>About the Presenters</h4>
 
   <p><a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a> is a professor of computer science at the University of Pennsylvania. His research interests span the areas of program analysis, constraint solving, and machine learning for programming. He holds a Ph.D. in Computer Science from Stanford University. Earlier, he was a researcher at Intel Labs and a professor in the College of Computing at Georgia Tech.</p>
